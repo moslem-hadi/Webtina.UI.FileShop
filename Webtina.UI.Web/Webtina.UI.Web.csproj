@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\LocalizationAdmin\app\app.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\createClassController.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\headerController.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\importExportResxController.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\listController.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\localizationservice.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\resourceController.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\resourceProviderInfoController.js" />
+    <None Include="wwwroot\LocalizationAdmin\app\translateController.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\angular-sanitize.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\angular-sanitize.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\angular-sanitize.min.js.map" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\angular.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\angular.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\angular.min.js.gzip" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\angular.min.js.map" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\bootstrap\dist\js\npm.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\font-awesome\css\font-awesome.css.map" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\jquery.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\jquery.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\jquery.min.map" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\lodash.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\lodash.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\angular-file-upload-all.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\angular-file-upload-all.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\angular-file-upload-shim.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\angular-file-upload-shim.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\angular-file-upload.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\angular-file-upload.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\FileAPI.flash.swf" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\FileAPI.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\ng-file-upload-all.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\ng-file-upload-all.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\npm-debug.log" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\vendor\ng-file-upload\README.md" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\ww.angular.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\ww.jquery.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\ww.jquery.min.js" />
+    <None Include="wwwroot\LocalizationAdmin\scripts\ww.resourceEditor.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Westwind.Globalization.AspNetCore" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Webtina.UI.Core\Webtina.UI.Core.csproj" />
+    <ProjectReference Include="..\Webtina.UI.Framework\Webtina.UI.Framework.csproj" />
+    <ProjectReference Include="..\Webtina.UI.Models\Webtina.UI.Models.csproj" />
+    <ProjectReference Include="..\Webtina.UI.Services\Webtina.UI.Services.csproj" />
+  </ItemGroup>
+
+</Project>

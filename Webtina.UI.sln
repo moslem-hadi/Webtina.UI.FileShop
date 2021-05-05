@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webtina.UI.Web", "Webtina.UI.Web\Webtina.UI.Web.csproj", "{449F09EB-63E4-4639-8EC9-680AB93C5052}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{797F46CF-8D97-4501-ACA0-B1A3950B823E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webtina.UI.Models", "Webtina.UI.Models\Webtina.UI.Models.csproj", "{49A569A7-E1C1-41D6-8099-A67180F04BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webtina.UI.Services", "Webtina.UI.Services\Webtina.UI.Services.csproj", "{3FB844A6-D1D0-4BA8-B70A-8955F2024E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webtina.UI.Core", "Webtina.UI.Core\Webtina.UI.Core.csproj", "{F33DDDC8-1235-418F-8456-F36C3FF7FD88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webtina.UI.Framework", "Webtina.UI.Framework\Webtina.UI.Framework.csproj", "{6AB7CECF-B148-4148-8174-92E49DA3CC56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{449F09EB-63E4-4639-8EC9-680AB93C5052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449F09EB-63E4-4639-8EC9-680AB93C5052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449F09EB-63E4-4639-8EC9-680AB93C5052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449F09EB-63E4-4639-8EC9-680AB93C5052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A569A7-E1C1-41D6-8099-A67180F04BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A569A7-E1C1-41D6-8099-A67180F04BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A569A7-E1C1-41D6-8099-A67180F04BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A569A7-E1C1-41D6-8099-A67180F04BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB844A6-D1D0-4BA8-B70A-8955F2024E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB844A6-D1D0-4BA8-B70A-8955F2024E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB844A6-D1D0-4BA8-B70A-8955F2024E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB844A6-D1D0-4BA8-B70A-8955F2024E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33DDDC8-1235-418F-8456-F36C3FF7FD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33DDDC8-1235-418F-8456-F36C3FF7FD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33DDDC8-1235-418F-8456-F36C3FF7FD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33DDDC8-1235-418F-8456-F36C3FF7FD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB7CECF-B148-4148-8174-92E49DA3CC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB7CECF-B148-4148-8174-92E49DA3CC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB7CECF-B148-4148-8174-92E49DA3CC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB7CECF-B148-4148-8174-92E49DA3CC56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49A569A7-E1C1-41D6-8099-A67180F04BE9} = {797F46CF-8D97-4501-ACA0-B1A3950B823E}
+		{3FB844A6-D1D0-4BA8-B70A-8955F2024E5B} = {797F46CF-8D97-4501-ACA0-B1A3950B823E}
+		{F33DDDC8-1235-418F-8456-F36C3FF7FD88} = {797F46CF-8D97-4501-ACA0-B1A3950B823E}
+		{6AB7CECF-B148-4148-8174-92E49DA3CC56} = {797F46CF-8D97-4501-ACA0-B1A3950B823E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E11958C0-B346-4A03-BF37-4BC28663DBB2}
+	EndGlobalSection
+EndGlobal
